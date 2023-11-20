@@ -1,0 +1,446 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* transition:0ms; */
+}
+
+.navblock {
+    width: 100%;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navblock article {
+    width: 98%;
+    height: 4em;
+    display: flex;
+    padding: 0% 1%;
+}
+
+.navblock article .box1 {
+
+    display: flex;
+    height: 4em;
+    flex-basis: 30%;
+    justify-content: left;
+}
+
+.navblock article .box1 div img {}
+
+.navblock article .box2 {
+    width: 100%;
+    height: 4em;
+
+    display: flex;
+    flex-basis: 50%;
+}
+
+.navblock article .box2 ul {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navblock article .box2 ul li {
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.05em;
+
+}
+
+.navblock article .box2 ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.navblock article .box2 ul li a img {
+    font-size: small;
+
+}
+
+.navblock article .box2 ul li .non:hover {
+    text-decoration: underline;
+}
+
+.navblock article .box3 {
+    width: 20%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navblock article .box3 ul li {
+    list-style-type: none;
+}
+
+.navblock article .box3 ul li button {
+    padding: 0.9em 2.1em;
+    background-color: #5551FF;
+    border-radius: 0.8em;
+    border: none;
+}
+
+.navblock article .box3 ul li button a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* home block starts */
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.home article aside {
+    width: 100%;
+    height: 70vh;
+}
+
+.home article aside .block1 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home article aside .block1 h1 {
+    margin-top: 2em;
+    font-size: 4em;
+
+}
+
+.home article aside .block2 {
+    width: 87%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 4em;
+
+}
+
+.home article aside .block2 .img img {
+    width: 23em;
+}
+
+.home article aside .block2 .img h1 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
+.home article aside .block2 .img ul li {
+    font-size: 1.2em;
+    margin-top: 1.2em;
+    color: #000;
+    list-style-type: none;
+
+}
+
+.home article aside .block2 .img ul li a {
+    color: #000;
+
+}
+
+/* login starts */
+#login article {
+    width: 100%;
+    height: 100vh;
+    margin-top: 25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login article aside {
+    width: 25%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login article aside div {
+    width: 100%;
+    justify-content: center;
+}
+
+#login article aside .top {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2em;
+
+}
+
+#login article aside .bottom {
+    height: 16vh;
+}
+
+#login article aside .box1 {
+    /* padding-top: 10px; */
+    margin-top: 20px;
+    height: 7.5vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+#login article aside .box1 img {
+    width: 40px;
+    height: 25px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 0.1rem;
+}
+
+#login article aside .box1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+#login article aside .box3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+#login article aside .box5 input {
+    height: 8vh;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#login article aside .box5 input[placeholder] {
+    font-size: large;
+    padding-left: 1rem;
+}
+
+#login article aside .box6 {
+    height: 2vh;
+}
+
+#login article aside .box7 input {
+    width: 100%;
+    height: 8vh;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-right: 6.1rem;
+}
+
+#login article aside .box7 input[placeholder] {
+    font-size: large;
+    padding-left: 1rem;
+
+}
+
+#login article aside .box8 {
+    height: 2vh;
+}
+
+#login article aside .box9 {
+    width: 100%;
+    height: 4vh;
+    font-weight: 500;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#login article aside .box9 input[type] {
+    width: 1.1rem;
+    padding-right: 1rem;
+    border: 5px solid #000;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0.3rem;
+    right: 1rem;
+}
+
+#login article aside .box10 {
+    height: 2vh;
+}
+
+#login article aside .box11 button {
+    width: 100%;
+    height: 7vh;
+    background-color: #000;
+    border-radius: 6px;
+}
+
+#login article aside .box11 button a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+#login article aside .box12 {
+    height: 2vh;
+
+}
+
+#login article aside .box13 {
+    font-size: small;
+    text-align: center;
+    font-weight: 500;
+    color:rgba(0, 0,0, 0.5);
+}
+
+#login article aside .box13 a {
+    text-decoration: none;
+    color: #769BFF;
+    line-height: 1vh;
+    
+
+}
+#login article aside .box14{
+    height: 3vh;
+}
+#login article aside .box15 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #2a62ff;
+    font-weight: 500;
+}
+#login article aside .box16{
+    height: 3vh;
+}
+#login article aside .box17{
+    text-align: center;
+    font-weight: 500;
+    color:rgba(0, 0,0, 0.5);
+}
+#login article aside .box17 a{
+    color: #769BFF;
+    text-decoration: none;
+}
+/* bottomblock starts */
+#bottomblock {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottomblock article{
+    width: 85%;
+    height: 95vh;
+}
+#bottomblock article aside{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+#bottomblock article aside .figma{
+    font-weight: 500;
+    line-height: 2.5rem;
+   
+}
+#bottomblock article  aside .figma .first a{
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-weight: 500;
+    color: black;
+}
+#bottomblock article aside .figma div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.5);
+}
+#bottomblock article aside .figma div a img{
+    width: 1rem;
+    height: 1rem;
+}
+/* 2 */
+#bottomblock article aside .usecases{
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+#bottomblock article  aside .usecases .second a{
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 500;
+    color: black;
+}
+#bottomblock article aside .usecases div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.5);   
+}
+/* 3 */
+#bottomblock article aside .explore{
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+#bottomblock article  aside .explore .third{
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 500;
+    color: black;
+}
+#bottomblock article aside .explore .third a{
+    text-decoration: none;
+    color: #000;
+    
+}
+#bottomblock article aside .explore div a{
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.5);   
+    
+}
+/* 4 */
+#bottomblock article aside .resources{
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+#bottomblock article  aside .resources .fourth a{
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 500;
+    color: black;
+}
+#bottomblock article aside .resources div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.5);
+}
+/* 5 */
+#bottomblock article aside .compare{
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+#bottomblock article  aside .compare .fifth a{
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 500;
+    color: black;
+}
+#bottomblock article aside .compare div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.5);
+}
